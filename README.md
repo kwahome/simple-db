@@ -14,7 +14,7 @@ As a developer working with databases day in day out, you must sometimes ask you
 To figure things out, I’m writing a database from scratch. It’s modeled off sqlite because it is designed to be small with fewer features than MySQL or PostgreSQL, so I have a better hope of understanding it. The entire database is stored in a single file!
 
 ## Architecture
-[Architecture](images/arch1.gif)
+[![Architecture](images/arch1.gif)](https://github.com/kwahome/simple-db/blob/master/images/arch1.gif)
 
 A query goes through a chain of components in order to retrieve or modify data. The *front-end* consists of the:
 
