@@ -53,9 +53,9 @@ dkms.conf
 
 # Binaries
 *.o
-*
 !*.*
 
 # Environment settings
 .DS_Store
 .idea
+.bin
